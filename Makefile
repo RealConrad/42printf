@@ -6,7 +6,7 @@
 #    By: cwenz <cwenz@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/10 11:39:26 by cwenz             #+#    #+#              #
-#    Updated: 2023/04/15 18:54:43 by cwenz            ###   ########.fr        #
+#    Updated: 2023/04/18 10:29:00 by cwenz            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ SRCS = ft_printf.c ft_string_specifiers.c ft_number_specifiers.c ft_formatting_s
 # Convert all the .c files into .o files 
 OBJS = $(SRCS:.c=.o)
 
-# Create the library
+# Make rule to Create the library
 all: $(NAME)
 
 # Make rule to create the library
