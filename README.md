@@ -66,6 +66,10 @@ Example: `ft_printf("Percentage: 50%%\n");`
 % cd ft_printf
 % make all
 ```
+3. Clean object files
+```shell
+% make clean
+```
 
 ## Examples
 An example on how to use the library:
