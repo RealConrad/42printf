@@ -87,9 +87,10 @@ int main(void) {
     return (0);
 }
 ```
-Compiling:
+Compiling and executing:
 ```shell
 % cc -Wall -Werror -Wextra main.c libftprintf.a
+% ./a.out
 ```
 
 ## License
