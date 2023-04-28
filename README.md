@@ -1,6 +1,6 @@
 <h1 align="center">
     <p>
-        📓 Ft_Printf
+          📗 Ft_Printf
     </p>
 </h1>
 
