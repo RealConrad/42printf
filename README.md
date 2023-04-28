@@ -69,7 +69,7 @@ Example: `ft_printf("Percentage: 50%%\n");`
 
 ## Examples
 An example on how to use the library. Remember to include `#include "ft_printf.h"` in every file where you call `ft_printf();`
-```
+```c
 #include "ft_printf.h"
 
 int main(void) {
