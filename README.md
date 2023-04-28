@@ -23,7 +23,7 @@
 - [License](#license)
 
 ## Features:
-> NOTE: This is only a partial implementation of printf as it does accomdate flags
+> NOTE: This is only a partial implementation of printf as it does accomdate formatting flags
 - ft_printf is a flexible, easy-to-use C library for formatted output to various output streams. The library aims to provide an alternative and customizable implementation of the widely-used printf.
 - ft_printf does not use a buffer like the original.
 - It handles write() errors.
