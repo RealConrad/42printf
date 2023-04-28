@@ -87,3 +87,6 @@ Compiling:
 ```shell
 % cc -Wall -Werror -Wextra main.c libftprintf.a
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
