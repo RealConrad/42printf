@@ -23,7 +23,7 @@
 - [License](#license)
 
 ## Features:
-> NOTE: This is only a partial implementation of printf as it does accomdate all error handling and cases
+> NOTE: This is only a partial implementation of printf as it does accomdate flags
 - ft_printf is a flexible, easy-to-use C library for formatted output to various output streams. The library aims to provide an alternative and customizable implementation of the widely-used printf.
 - ft_printf does not use a buffer like the original.
 - It handles write() errors.
@@ -56,7 +56,7 @@ Example: `ft_printf("The hexadecimal number (uppercase) is: %X\n", 42);`
 9. **%%** - Prints a %: To include a literal '%' character in your output, use the '%%' format specifier. \
 Example: `ft_printf("Percentage: 50%%\n");`
 
-## Installation and setup
+## Installation
 1. Clone the repository.
 ```shell
 % git clone https://github.com/RealConrad/42printf.git ft_printf
@@ -68,7 +68,8 @@ Example: `ft_printf("Percentage: 50%%\n");`
 ```
 
 ## Examples
-An example on how to use the library. Remember to include `#include "ft_printf.h"` in every file where you call `ft_printf();`
+An example on how to use the library:
+**File: main.c**
 ```c
 #include "ft_printf.h"
 
