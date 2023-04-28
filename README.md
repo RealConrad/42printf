@@ -58,17 +58,13 @@ Example: `ft_printf("Percentage: 50%%\n");`
 
 ## Installation and setup
 1. Clone the repository.
-```
+```shell
 % git clone https://github.com/RealConrad/42printf.git ft_printf
 ```
 2. Enter the directory and build the library.
-```
+```shell
 % cd ft_printf
 % make all
-```
-3. Compiling (example):
-```
-% cc -Wall -Werror -Wextra {file}
 ```
 
 ## Examples
@@ -85,4 +81,8 @@ int main(void) {
 
     return (0);
 }
+```
+Compiling:
+```shell
+% cc -Wall -Werror -Wextra main.c libftprintf.a
 ```
