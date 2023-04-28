@@ -27,6 +27,7 @@
 - ft_printf is a flexible, easy-to-use C library for formatted output to various output streams. The library aims to provide an alternative and customizable implementation of the widely-used printf.
 - ft_printf does not use a buffer like the original.
 - It handles write() errors.
+- All functions have doxygen comments.
 ### It handles the following cases:
 1. **%s** - Prints a string: The corresponding argument should be a pointer to a null-terminated character array. \
 Example: `ft_printf("Hello, %s!\n", "world");`
@@ -55,12 +56,33 @@ Example: `ft_printf("The hexadecimal number (uppercase) is: %X\n", 42);`
 9. **%%** - Prints a %: To include a literal '%' character in your output, use the '%%' format specifier. \
 Example: `ft_printf("Percentage: 50%%\n");`
 
-## Installation
+## Installation and setup
 1. Clone the repository.
-```
-git clone https://github.com/RealConrad/42printf.git ft_printf
+```shell
+% git clone https://github.com/RealConrad/42printf.git ft_printf
 ```
 2. Enter the directory and build the library.
 ```
-%
+% cd ft_printf
+% make all
+```
+3. Compiling:
+```
+% 
+```
+
+## Examples
+An example on how to use the library. Remember to include `#include "ft_printf.h"` in every file where you call `ft_printf();`
+```
+#include "ft_printf.h"
+
+int main(void) {
+    int value = 42;
+    char str[] = "Hello, World!";
+
+    ft_printf("Integer value: %d\n", value);
+    ft_printf("String value: %s\n", str);
+
+    return (0);
+}
 ```
